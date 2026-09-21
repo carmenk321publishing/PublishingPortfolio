@@ -5,10 +5,11 @@ A collection of original ELT (English Language Teaching) materials designed for 
 
 ## What's inside
 
-Home page with product placards, each linking to a full sample PDF
-Downloadable worksheet/product samples
-Additional site/product samples
-Background and professional summary
+- `index.html` — Home page with product placards, each linking to a full sample PDF
+- `about.html` — Background and professional summary
+- `sample-websites.html` — Additional site/product samples
+- `styles.css` — Shared stylesheet ("Light Mystic Blue" theme)
+- `sample-product-*.pdf` — Downloadable worksheet/product samples
 
 ## Status
 
