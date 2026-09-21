@@ -1,15 +1,14 @@
 [README.md](https://github.com/user-attachments/files/32447682/README.md)
 # Publishing Portfolio
 
-A collection of original ELT (English Language Teaching) materials designed for publishers, editors, and course teams. Each sample case study moves from a short needs analysis through drafting and review to a finished, classroom-ready document — student worksheet, teacher notes, and answer key where relevant.
+A collection of original ELT (English Language Teaching) materials designed for publishers, editors, and course teams. Each sample case study moves from a short needs analysis through drafting and review to a finished, classroom-ready document, including student worksheet, teacher notes, and answer keys where relevant.
 
 ## What's inside
 
-- `index.html` — Home page with product placards, each linking to a full sample PDF
-- `about.html` — Background and professional summary
-- `sample-websites.html` — Additional site/product samples
-- `styles.css` — Shared stylesheet ("Light Mystic Blue" theme)
-- `sample-product-*.pdf` — Downloadable worksheet/product samples
+Home page with product placards, each linking to a full sample PDF
+Downloadable worksheet/product samples
+Additional site/product samples
+Background and professional summary
 
 ## Status
 
