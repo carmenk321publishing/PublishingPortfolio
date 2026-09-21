@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32447682/README.md)
-
 # Website Link:  
 <p style="font-size: 1.2rem;">https://carmenk321publishing.github.io/PublishingPortfolio/</p>
 
