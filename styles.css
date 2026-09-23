@@ -42,20 +42,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 100;
-  .project-panel {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 40px 44px 36px;
-  flex-direction: column;
-  animation: panel-fade-in 0.3s ease;
-  display: none; /* hidden by default now */
-}
-
-.project-panel.active {
-  display: flex; /* only the active panel becomes visible */
-}
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 22px 48px;
@@ -137,7 +124,7 @@ a {
 }
 
 /* ================================
-   NEW: Project Tabs
+   Project Tabs
 ================================ */
 .project-tabs {
   display: flex;
@@ -176,7 +163,7 @@ a {
 }
 
 /* ================================
-   NEW: Panel Stage (one project at a time)
+   Panel Stage (one project at a time)
 ================================ */
 .panel-stage {
   max-width: 900px;
@@ -190,9 +177,13 @@ a {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 40px 44px 36px;
-  display: flex;
   flex-direction: column;
   animation: panel-fade-in 0.3s ease;
+  display: none;
+}
+
+.project-panel.active {
+  display: flex;
 }
 
 @keyframes panel-fade-in {
