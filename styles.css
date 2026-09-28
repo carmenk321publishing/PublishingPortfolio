@@ -525,3 +525,23 @@ a {
   .sc-phases li:last-child { grid-column: 1 / -1; }
   .sc-credit span { display: table; margin: 0 auto 6px; }
 }
+
+/* ---------- Atlantis Learning Archives credit ---------- */
+.atlantis-credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  opacity: 0.85;
+}
+.atlantis-credit img {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+.atlantis-credit span {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--text-muted);
+}
