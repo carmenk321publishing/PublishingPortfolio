@@ -16,17 +16,17 @@
   /* Aligned file lines + buttons (used when a product has more than one file) */
   .file-actions {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 16px 24px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 28px 32px;
     margin-top: 8px;
-    padding-top: 18px;
+    padding-top: 26px;
     border-top: 1px solid var(--border);
   }
   .file-item {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 10px;
+    gap: 14px;
   }
   .file-item .file-specs {
     margin: 0;
@@ -34,6 +34,24 @@
   .file-item .pdf-button {
     margin-top: 0;
     align-self: stretch;
+  }
+
+  /* Prominent, centered download buttons with a light-orange highlight */
+  .project-panel .file-specs {
+    text-align: center;
+  }
+  .project-panel .pdf-button {
+    align-self: center;
+    margin: 14px auto 14px;
+    padding: 16px 34px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.3;
+    box-shadow: 0 0 0 12px #fff1e0;
+  }
+  .project-panel .pdf-button:hover,
+  .project-panel .pdf-button:focus {
+    box-shadow: 0 0 0 12px #ffe3c2;
   }
 </style>
 </head>
@@ -129,7 +147,7 @@
 
     <p class="file-specs">PDF &middot; 13 pages &middot; ~4.9 MB</p>
 
-    <a class="pdf-button" href="sample-product-1.pdf" target="_blank" rel="noopener">Click here to view PDF</a>
+    <a class="pdf-button" href="sample-product-1.pdf" target="_blank" rel="noopener">Click here to view the full student and teacher set (PDF)</a>
   </div>
 
   <div class="project-panel" id="panel-2" role="tabpanel" aria-labelledby="tab-2" hidden>
@@ -181,7 +199,7 @@
 
     <p class="file-specs">PDF &middot; 18 pages &middot; ~5.1 MB</p>
 
-    <a class="pdf-button" href="sample-product-2.pdf" target="_blank" rel="noopener">Click here to view PDF</a>
+    <a class="pdf-button" href="sample-product-2.pdf" target="_blank" rel="noopener">Click here to view the full student and teacher set (PDF)</a>
   </div>
 
   <div class="project-panel" id="panel-3" role="tabpanel" aria-labelledby="tab-3" hidden>
@@ -235,11 +253,11 @@
     <div class="file-actions">
       <div class="file-item">
         <p class="file-specs">PDF &middot; 20 pages &middot; ~2.0 MB</p>
-        <a class="pdf-button" href="sample-product-3.pdf" target="_blank" rel="noopener">Click here to view PDF</a>
+        <a class="pdf-button" href="sample-product-3.pdf" target="_blank" rel="noopener">Click here to view the teacher's guide and student decodable (PDF)</a>
       </div>
       <div class="file-item">
         <p class="file-specs">PPT &middot; 10 slides &middot; ~17.0 MB</p>
-        <a class="pdf-button" href="sample-product-3.pptx" download>Click here to download PPT</a>
+        <a class="pdf-button" href="sample-product-3.pptx" download>Click here to download the teacher decodable slides (PPT)</a>
       </div>
     </div>
   </div>
@@ -288,11 +306,11 @@
     <div class="file-actions">
       <div class="file-item">
         <p class="file-specs">PDF &middot; 3 pages &middot; ~0.2 MB</p>
-        <a class="pdf-button" href="sample-product-4-student-assessment.pdf" target="_blank" rel="noopener">Click here to view Student Assessment</a>
+        <a class="pdf-button" href="sample-product-4-student-assessment.pdf" target="_blank" rel="noopener">Click here to view the Student Assessment (PDF)</a>
       </div>
       <div class="file-item">
         <p class="file-specs">PDF &middot; 6 pages &middot; ~0.3 MB</p>
-        <a class="pdf-button" href="sample-product-4-teacher-version.pdf" target="_blank" rel="noopener">Click here to view Teacher Version</a>
+        <a class="pdf-button" href="sample-product-4-teacher-version.pdf" target="_blank" rel="noopener">Click here to view the Teacher Version with answer key (PDF)</a>
       </div>
     </div>
   </div>
