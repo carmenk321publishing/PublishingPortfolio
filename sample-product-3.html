@@ -61,17 +61,24 @@
       font-size: 0.75rem;
       font-weight: 700;
     }
+    .download-band {
+      margin: 34px -44px 0;
+      padding: 24px 44px 14px;
+      background: #fff4e8;
+      border-top: 2px solid #f6d9c4;
+      border-bottom: 2px solid #f6d9c4;
+      text-align: center;
+    }
     .file-line {
-      margin: 26px 0 10px;
+      margin: 6px 0 12px;
       color: var(--navy);
       font-size: 0.85rem;
       font-weight: 700;
       text-align: center;
     }
-    .button-wrap { text-align: center; }
     .button {
       display: inline-block;
-      margin: 8px auto 22px;
+      margin: 0 auto 20px;
       padding: 16px 34px;
       border-radius: 6px;
       background: var(--blue);
@@ -80,9 +87,8 @@
       font-weight: 700;
       line-height: 1.3;
       text-decoration: none;
-      box-shadow: 0 0 0 12px #fff1e0;
     }
-    .button:hover, .button:focus { background: var(--blue-dark); box-shadow: 0 0 0 12px #ffe3c2; }
+    .button:hover, .button:focus { background: var(--blue-dark); }
     .button.secondary { background: #fff; color: var(--blue); border: 2px solid var(--blue); }
     .button.secondary:hover, .button.secondary:focus { background: #f0f5fc; }
     footer {
@@ -95,6 +101,7 @@
     @media (max-width: 600px) {
       .page { margin: 0; padding: 28px 20px 36px; border-radius: 0; }
       h1 { font-size: 1.4rem; }
+      .download-band { margin: 30px -20px 0; padding: 20px 20px 10px; }
     }
   </style>
 </head>
@@ -143,7 +150,7 @@
       <li>Canva</li>
     </ul>
 
-    <div class="button-wrap">
+    <div class="download-band">
       <p class="file-line">PDF · 20 pages · ~2.0 MB</p>
       <a class="button" href="sample-product-3.pdf" target="_blank" rel="noopener">Click here to view the teacher's guide and student decodable (PDF)</a>
 
