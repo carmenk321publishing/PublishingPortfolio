@@ -62,22 +62,27 @@
       font-weight: 700;
     }
     .file-line {
-      margin: 22px 0 10px;
+      margin: 26px 0 10px;
       color: var(--navy);
       font-size: 0.85rem;
       font-weight: 700;
+      text-align: center;
     }
+    .button-wrap { text-align: center; }
     .button {
       display: inline-block;
-      margin: 0 10px 10px 0;
-      padding: 12px 24px;
+      margin: 8px auto 22px;
+      padding: 16px 34px;
       border-radius: 6px;
       background: var(--blue);
       color: #fff;
+      font-size: 1.15rem;
       font-weight: 700;
+      line-height: 1.3;
       text-decoration: none;
+      box-shadow: 0 0 0 12px #fff1e0;
     }
-    .button:hover, .button:focus { background: var(--blue-dark); }
+    .button:hover, .button:focus { background: var(--blue-dark); box-shadow: 0 0 0 12px #ffe3c2; }
     .button.secondary { background: #fff; color: var(--blue); border: 2px solid var(--blue); }
     .button.secondary:hover, .button.secondary:focus { background: #f0f5fc; }
     footer {
@@ -132,11 +137,13 @@
       <li>Canva</li>
     </ul>
 
-    <p class="file-line">PDF · 3 pages · ~0.2 MB</p>
-    <a class="button" href="sample-product-4-student-assessment.pdf" target="_blank" rel="noopener">Click here to view Student Assessment</a>
+    <div class="button-wrap">
+      <p class="file-line">PDF · 3 pages · ~0.2 MB</p>
+      <a class="button" href="sample-product-4-student-assessment.pdf" target="_blank" rel="noopener">Click here to view the Student Assessment (PDF)</a>
 
-    <p class="file-line">PDF · 6 pages · ~0.3 MB</p>
-    <a class="button secondary" href="sample-product-4-teacher-version.pdf" target="_blank" rel="noopener">Click here to view Teacher Version</a>
+      <p class="file-line">PDF · 6 pages · ~0.3 MB</p>
+      <a class="button secondary" href="sample-product-4-teacher-version.pdf" target="_blank" rel="noopener">Click here to view the Teacher Version with answer key (PDF)</a>
+    </div>
 
     <footer>Atlantis Learning Archives | A project by Carmen Khoury | © 2026</footer>
   </main>

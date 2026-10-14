@@ -62,22 +62,27 @@
       font-weight: 700;
     }
     .file-line {
-      margin: 22px 0 10px;
+      margin: 26px 0 10px;
       color: var(--navy);
       font-size: 0.85rem;
       font-weight: 700;
+      text-align: center;
     }
+    .button-wrap { text-align: center; }
     .button {
       display: inline-block;
-      margin: 0 10px 10px 0;
-      padding: 12px 24px;
+      margin: 8px auto 22px;
+      padding: 16px 34px;
       border-radius: 6px;
       background: var(--blue);
       color: #fff;
+      font-size: 1.15rem;
       font-weight: 700;
+      line-height: 1.3;
       text-decoration: none;
+      box-shadow: 0 0 0 12px #fff1e0;
     }
-    .button:hover, .button:focus { background: var(--blue-dark); }
+    .button:hover, .button:focus { background: var(--blue-dark); box-shadow: 0 0 0 12px #ffe3c2; }
     .button.secondary { background: #fff; color: var(--blue); border: 2px solid var(--blue); }
     .button.secondary:hover, .button.secondary:focus { background: #f0f5fc; }
     footer {
@@ -138,11 +143,13 @@
       <li>Canva</li>
     </ul>
 
-    <p class="file-line">PDF · 20 pages · ~2.0 MB</p>
-    <a class="button" href="sample-product-3.pdf" target="_blank" rel="noopener">Click here to view PDF</a>
+    <div class="button-wrap">
+      <p class="file-line">PDF · 20 pages · ~2.0 MB</p>
+      <a class="button" href="sample-product-3.pdf" target="_blank" rel="noopener">Click here to view the teacher's guide and student decodable (PDF)</a>
 
-    <p class="file-line">PPT · 10 slides · ~17.0 MB</p>
-    <a class="button secondary" href="sample-product-3.pptx" download>Click here to download PPT</a>
+      <p class="file-line">PPT · 10 slides · ~17.0 MB</p>
+      <a class="button secondary" href="sample-product-3.pptx" download>Click here to download the teacher decodable slides (PPT)</a>
+    </div>
 
     <footer>Atlantis Learning Archives | A project by Carmen Khoury | © 2026</footer>
   </main>
