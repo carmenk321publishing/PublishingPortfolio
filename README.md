@@ -19,17 +19,12 @@
 
 | File | Description |
 |---|---|
-| `index.html` | Home page with product placards, each linking to a full sample PDF |
+| `index.html` | Home page with product placards, each linking to a full sample PDF and/or PPT |
 | `about.html` | Background and professional summary |
 | `sample-websites.html` | Additional site/product samples |
 | `styles.css` | Shared stylesheet ("Light Mystic Blue" theme) |
 | `sample-product-*.pdf` | Downloadable worksheet/product samples |
 
----
-
-## 🚧 Status
-
-**Work in progress.** Needs-analysis summaries and product details are currently placeholders and are being finalized case by case. Not yet ready for public sharing.
 
 ---
 
